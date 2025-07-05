@@ -1,7 +1,7 @@
 title: "Yaser Elbably — Data Analyst"
 description: "محلل بيانات مستقل بخبرة هندسية يقدم حلول تحليلية متكاملة"
-url: "" # أضف هنا نطاقك لاحقًا إن وجد
-baseurl: "" # لا تضع أي قيمة إذا كنت تستخدم GitHub Pages من الفرع الرئيسي
+url: "https://yaserosamaelbably.github.io"
+baseurl: "/agency-jekyll-theme"
 
 author:
   name: "م. ياسر"
@@ -11,6 +11,5 @@ social:
   linkedin: "https://www.linkedin.com/in/yaserosamaelbably/"
   github: "https://github.com/YaserOsamaElbably"
 
-# إعدادات GitHub Pages
 markdown: kramdown
-theme: jekyll-theme-minimal
+theme: null
