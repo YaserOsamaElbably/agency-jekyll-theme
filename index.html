@@ -1,20 +1,16 @@
----
-layout: default
----
-
-<div class="home">
-
-  <h1>Posts</h1>
-
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+<header class="intro">
+  <div class="intro-body">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <h1 class="brand-heading">مرحبًا، أنا <strong>م. ياسر</strong></h1>
+          <p class="intro-text">محلل بيانات مستقل بخلفية هندسية<br>
+          أساعدك على اتخاذ قرارات ذكية مبنية على البيانات</p>
+          <a href="#about" class="btn btn-circle page-scroll">
+            <i class="fa fa-angle-double-down animated"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
